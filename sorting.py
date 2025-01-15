@@ -13,7 +13,7 @@ def insertion_sort_desc(arr):
 
 
 if __name__ == "__main__":
-    data = [5, 2, 9, 1, 5, 6]
+    data = [8, 3, 7, 1, 5]
     print("Original array:", data)
     sorted_data = insertion_sort_desc(data)
     print("Sorted array (Descending):", sorted_data)
