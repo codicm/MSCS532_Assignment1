@@ -1,4 +1,4 @@
-def insertion_sort_desc(arr):
+def sort_descending(arr):
 
     for i in range(1, len(arr)):
         key = arr[i]
@@ -15,5 +15,5 @@ def insertion_sort_desc(arr):
 if __name__ == "__main__":
     data = [8, 3, 7, 1, 5]
     print("Original array:", data)
-    sorted_data = insertion_sort_desc(data)
+    sorted_data = sort_descending(data)
     print("Sorted array (Descending):", sorted_data)
